@@ -9,12 +9,24 @@
 .menu {
     height: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    background-color: rgb(46, 46, 46);
 }
 .menu a {
     display: inline-block;
     text-decoration: none;
-    font-size: 2rem;
-
+    font-size: 1.6rem;
+    color: white;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.border-r {
+    border-right: white solid 1px;
+    padding: 0 4rem;
+}
+.border-l {
+    padding-left: 4rem;
 }
