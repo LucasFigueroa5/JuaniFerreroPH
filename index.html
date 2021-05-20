@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Juani Ferrero</title>
+
+    <!-- Fuentes -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- STYLES -->
 
@@ -14,17 +19,23 @@
 </head>
 <body>
     <header>
-        <div class="portada">
-            <img src="./images/PORTADA JF.jpg" alt="#">
-            <nav class="menu">
-                <ul>
-                    <li><a class="border-r" href="#">Sobre mi</a></li>
-                    <li><a class="border-r" href="#">Fotos</a></li>
-                    <li><a class="border-r" href="#">Diseño</a></li>
-                    <li><a class="border-l" href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+        <input type="checkbox" id="burger" class="burger-checkbox">
+        <div class="portada" id="menu">
+            <img src="./images/PORTADA JF.jpg" alt="#" class="img-portada">
+            <label for="burger" class="container-burger">              
+                <div class="linea linea-top"></div>
+                <div class="linea linea-med"></div>
+                <div class="linea linea-low"></div>              
+            </label>              
+        </div> 
+        <nav class="menu-burger">
+            <ul>
+                <li><a class="border-b" href="#episodios">SOBRE MÍ</a> </li>
+                <li><a class="border-b" href="#nosotros">FOTOS</a> </li>
+                <li><a class="border-b" href="#entrevistas">BLOG</a> </li>
+                <li><a href="#topicos">CONTACTO</a> </li>
+            </ul>
+        </nav>
     </header>
 </body>
 </html>
